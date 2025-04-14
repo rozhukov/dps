@@ -18,7 +18,7 @@ As stated in this repository's [CONTRIBUTING](https://github.com/oasis-tcs/dps/b
 
 ## Licensing
 
-Please see the [LICENSE](https://github.com/oasis-tcs/dps/blob/master/LICENSE.md) file for description of the license terms and OASIS policies applicable to the TC's work in this GitHub project. Content in this repository is intended to be part of the MQTT TC's permanent record of activity, visible and freely available for all to use, subject to applicable OASIS policies, as presented in the repository [LICENSE](https://github.com/oasis-tcs/dps/blob/master/LICENSE.md). 
+Please see the [LICENSE](https://github.com/oasis-tcs/dps/blob/master/LICENSE.md) file for description of the license terms and OASIS policies applicable to the TC's work in this GitHub project. Content in this repository is intended to be part of the DPS TC's permanent record of activity, visible and freely available for all to use, subject to applicable OASIS policies, as presented in the repository [LICENSE](https://github.com/oasis-tcs/dps/blob/master/LICENSE.md). 
 
 ## Contact
 
