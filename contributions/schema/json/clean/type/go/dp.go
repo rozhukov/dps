@@ -8,8 +8,6 @@ type DataProtection struct {
 	Use        Use        `json:"use"`
 }
 
-// Provenance.go
-
 // This describes the provenance of the dataset.
 type Provenance struct {
 	// The date when the dataset was compiled or created, providing a temporal context for the
@@ -41,15 +39,11 @@ type Provenance struct {
 	SubProvenance *Provenance `json:"sub-provenance,omitempty"`
 }
 
-// GenerationMethod.go
-
 type GenerationMethod struct {
 	Code        string  `json:"code"`
 	Description *string `json:"description,omitempty"`
 	System      *string `json:"system,omitempty"`
 }
-
-// GenerationPeriod.go
 
 // The span of time during which the data within the dataset was collected or generated,
 // offering insight into the dataset's timeliness and relevance.
@@ -60,21 +54,15 @@ type GenerationPeriod struct {
 	Start *string `json:"start,omitempty"`
 }
 
-// Origin.go
-
 type Origin struct {
 	Address []string `json:"address,omitempty"`
 	Name    string   `json:"name"`
 }
 
-// OriginGeography.go
-
 type OriginGeography struct {
 	Country string  `json:"country"`
 	State   *string `json:"state,omitempty"`
 }
-
-// Source.go
 
 // This describes a dataset and the source of the dataset.
 type Source struct {
@@ -100,14 +88,10 @@ type Source struct {
 	Version string `json:"version"`
 }
 
-// Issuer.go
-
 type Issuer struct {
 	Address []string `json:"address,omitempty"`
 	Name    string   `json:"name"`
 }
-
-// Use.go
 
 // This group describes legal use and restrictions.
 type Use struct {
@@ -155,15 +139,11 @@ type Use struct {
 	Trademark []string `json:"trademark,omitempty"`
 }
 
-// Classification.go
-
 type Classification struct {
 	Evaluated  bool       `json:"evaluated"`
 	Regulation Regulation `json:"regulation"`
 	Tool       *string    `json:"tool,omitempty"`
 }
-
-// Regulation.go
 
 type Regulation struct {
 	Code        string  `json:"code"`
@@ -171,15 +151,11 @@ type Regulation struct {
 	System      *string `json:"system,omitempty"`
 }
 
-// IntendedPurpose.go
-
 type IntendedPurpose struct {
 	Code        string  `json:"code"`
 	Description string  `json:"description"`
 	System      *string `json:"system,omitempty"`
 }
-
-// PrivacyEnhancing.go
 
 type PrivacyEnhancing struct {
 	Parameters   []string      `json:"parameters,omitempty"`
@@ -188,36 +164,26 @@ type PrivacyEnhancing struct {
 	ToolUsed     *string       `json:"tool-used,omitempty"`
 }
 
-// ToolCategory.go
-
 type ToolCategory struct {
 	Code        string  `json:"code"`
 	Description *string `json:"description,omitempty"`
 	System      *string `json:"system,omitempty"`
 }
 
-// ProcessingExcluded.go
-
 type ProcessingExcluded struct {
 	Country string  `json:"country"`
 	State   *string `json:"state,omitempty"`
 }
-
-// ProcessingIncluded.go
 
 type ProcessingIncluded struct {
 	Country string  `json:"country"`
 	State   *string `json:"state,omitempty"`
 }
 
-// StorageAllowed.go
-
 type StorageAllowed struct {
 	Country string  `json:"country"`
 	State   *string `json:"state,omitempty"`
 }
-
-// StorageForbidden.go
 
 type StorageForbidden struct {
 	Country string  `json:"country"`
