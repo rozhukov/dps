@@ -273,7 +273,7 @@
               }
             },
             "required": [
-              "tool"
+              "tool-used"
             ]
           },
           "minItems": 0,
