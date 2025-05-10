@@ -2,7 +2,6 @@
   "$schema": "../../../data-provenance.json",
   "parasitic": [
     true,
-    null,
     {
       "foo": [
         "bar",

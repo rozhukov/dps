@@ -233,7 +233,6 @@
         "previous-date": "lhUP",
         "parasitic": [
           true,
-          null,
           false,
           -1,
           3.14156,
