@@ -6,7 +6,7 @@ which are one question and answer per file.
 THis allows the FAQs to be developed independently until we have enough agreement 
 to move them into a more coherent organization.
 
-- faq link
+- [Why Data Provenance Standards?](faq01.md)
 - [What are the benefits of implementing Data Provenance Standards?](faq02.md)
 - faq link
 - [How do these standards improve data security and compliance?](faq03.md)
