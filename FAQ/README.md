@@ -9,7 +9,7 @@ to move them into a more coherent organization.
 - faq link
 - [What are the benefits of implementing Data Provenance Standards?](faq02.md)
 - faq link
-- faq link
+- [How do these standards improve data security and compliance?](faq03.md)
 - faq link
 - faq link
 - faq link
